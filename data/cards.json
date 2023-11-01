@@ -1,0 +1,39 @@
+
+[
+    {
+        "image": "../assets/eight.svg",
+        "name": "eight"
+    },
+    {
+        "image": "../assets/three.svg",
+        "name": "three"
+    },
+    {
+        "image": "../assets/two.svg",
+        "name": "two"
+    },
+    {
+        "image": "../assets/nine.svg",
+        "name": "nine"
+    },
+    {
+        "image": "../assets/ten.svg",
+        "name": "ten"
+    },
+    {
+        "image": "../assets/jack.svg",
+        "name": "jack"
+    },
+    {
+        "image": "../assets/queen.svg",
+        "name": "queen"
+    },
+    {
+        "image": "../assets/king.svg",
+        "name": "king"
+    },
+    {
+        "image": "../assets/ace.svg",
+        "name": "ace"
+    }
+]
