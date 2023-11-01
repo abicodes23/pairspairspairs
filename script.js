@@ -1,17 +1,16 @@
 const gridContainer = document.querySelector(".grid-container");
-//global variables// 
 let cards= [];
 //cards array// 
-let firstCard, secondCard; // cards that are compared// 
+let firstCard, secondCard; // ca
 let lockBoard = false;
-let moves = 0; //number of moves variable// 
+let moves = 0; 
 
 document.querySelector(".moves").textContent = moves;
 
 //fisher-yates shuffle alogorithm//
 //Ronald A. Fisher,Frank Yates., (1938) "Statistical tables for biological, agricultural and medical research"//
 
-fetch("./data/cards.json") //fetch variable the data is located// 
+fetch("./data/cards.json")
   .then((res) => res.json())
   .then((data) => {
     cards = [...data, ...data];
